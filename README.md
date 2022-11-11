@@ -15,6 +15,8 @@ bash vps-debian-ubuntu-config.sh
 
 ## Screenshot
 
+![vps-debian-ubuntu-config](https://user-images.githubusercontent.com/11923491/201437170-01efbce2-7129-47f7-9d92-6db4b67706c3.png)
+
 ## Relacionado
-Para a visualização de informações e logs de uma VPS, veja o seguinte script:
-[GitHub](https://github.com/ricjcs/vps-info-logs)
+Para a visualização de informações e logs de um servidor VPS, confira o seguinte script:
+[VPS Info & Logs](https://github.com/ricjcs/vps-info-logs).
