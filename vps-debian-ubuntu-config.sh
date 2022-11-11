@@ -86,7 +86,7 @@ utilities() {
     "
 }
 
-# CONFIGURAÇÕES DE SEGURANÇA SSH #############################
+# CONFIGURAÇÕES DE SEGURANÇA SSH
 ssh_security() {
     clear
     echo "---------------------------------------------------"
