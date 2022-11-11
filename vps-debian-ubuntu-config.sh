@@ -87,14 +87,6 @@ utilities() {
 }
 
 # CONFIGURAÇÕES DE SEGURANÇA SSH #############################
-# Alterar porta padrão 22
-# Desativar login como root
-# Desativar passwords vazias
-# Encaminhamento X11
-# Ativar tempo de Inatividade
-# Ativar Tentativas de Acesso
-# Máximo de conecões por IP
-
 ssh_security() {
     clear
     echo "---------------------------------------------------"
@@ -109,7 +101,10 @@ ssh_security() {
     echo
     echo "  Alterar porta padrão 22 para uma porta alta:"
     echo "  #Port 22 >>>>>> Port [NOVA] "
-    echo 
+    echo
+    echo "  Desativar login como root:"
+    echo "  PermitRootLogin no"
+    echo
     echo "  Desativar senhas vazias:"
     echo "  PermitEmptyPasswords no"
     echo
@@ -121,6 +116,9 @@ ssh_security() {
     echo
     echo "  Ativar tentativas de acesso:"
     echo "  MaxAuthTries 4"
+    echo
+    echo "  Máximo de conexões por ip:"
+    echo "  MaxSessions 2"
     echo
     echo "---------------------------------------------------"
     pause
